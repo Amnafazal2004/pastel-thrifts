@@ -3,8 +3,7 @@ import Image from 'next/image'
 import wishlist from '@/Assets/wishlist.png';
 import add from '@/Assets/add.png';
 import conversation from '@/Assets/conversation.png';
-import user from '@/Assets/user.png';
-import logout from '@/Assets/logout.png';
+import login from '@/Assets/login.png';
 import orderhistory from '@/Assets/orderhistory.png';
 import Link from 'next/link';
 
@@ -43,7 +42,7 @@ const Sidebar = () => {
 
     {/* Dashboard */}
     <div className="flex items-center gap-4 px-4 py-2 rounded-lg hover:bg-[#3c5e78] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
-      <Image src={user} alt="Dashboard" width={22} height={22} className="group-hover:scale-105" />
+      <Image src={login} alt="Dashboard" width={22} height={22} className="group-hover:scale-105" />
       <span className="text-base font-[playfair_display] font-medium">Dashboard</span>
     </div>
 
