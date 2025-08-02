@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 
 const Schema = new mongoose.Schema({
-    id:{
+    _id:{
         type:String,
         required:true,
     },
@@ -16,10 +16,6 @@ const Schema = new mongoose.Schema({
         type:String,
         required:true,
         unique: true,
-    },
-    password:{
-        type:String,
-        required:true
     },
     imageUrl:{
         type:String,
