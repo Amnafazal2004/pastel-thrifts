@@ -6,7 +6,7 @@ export const ThriftContext=createContext(null);
 const ThriftContextProvider = (props) => {
 
 //use user batata hai k user logged in hai k nhi 
-   const user = useUser();
+   const {user} = useUser();
     const [showloginpopup,setshowloginpopup] = useState("notshow");
 
 

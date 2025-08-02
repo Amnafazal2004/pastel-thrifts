@@ -1,6 +1,6 @@
 'use client'
 import React, { useContext, useState } from 'react'
-import login from '@/Assets/login.png';
+import userlogin from '@/Assets/userlogin.png';
 import wishlist from '@/Assets/wishlist.png';
 import Image from 'next/image';
 import clothes from '@/Assets/clothes.png';
@@ -44,8 +44,11 @@ const Header = () => {
       </UserButton.MenuItems>   */}
     </UserButton>   
     </>
-
-       : <Image src={login} onClick={openSignIn}  alt="Login" className="w-5 h-5" />
+              
+       :
+        <Image src={userlogin} onClick={openSignIn}  alt="Login" className="w-5 h-5" />
+       
+       
     }
 
 
