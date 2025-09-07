@@ -3,25 +3,17 @@ import React, { useContext, useState, useEffect } from 'react'
 import userlogin from '@/Assets/userlogin.png';
 import wishlist from '@/Assets/wishlist.png';
 import Image from 'next/image';
-import clothes from '@/Assets/clothes.png';
 import heroimg from '@/Assets/heroimg.png';
 import logo from '@/Assets/logo.png';
 import { ThriftContext } from '@/Context/ThriftContext';
 import { useClerk, UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 
 const Header = () => {
 
-  const { showloginpopup, setshowloginpopup, user, userId } = useContext(ThriftContext);
+  const { user } = useContext(ThriftContext);
   const { openSignIn } = useClerk();
-  const router = useRouter();
-
-  // useEffect(() => {
-  //   if (login) {
-  //     router.push('/Panel/ShowProducts')
-  //   }
-  // },)
+ 
 
 
   return (

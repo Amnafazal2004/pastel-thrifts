@@ -253,7 +253,7 @@ const Allmessages = () => {
   const [allmessages, setallmessages] = useState([]);
   const [remembername, setremembername] = useState()
   const messagesEndRef = useRef(null);
-  let recieverId, productId, userkiId, thename;
+  let recieverId, productId, userkiId, displayname;
 
   const updateconversation = async () => {
     await axios.put(`/api/conversation`, {
@@ -373,20 +373,19 @@ const Allmessages = () => {
                               : "bg-[#ccdce8] text-[#2d4456] border-gray-300"
                             }`}
                         >
-                          {allproducts.map((item2, index2) => {
-                            if (userId === item2.userId) {
-                              thename = item.userName
-                              return <span key={index2}>{item.userName?.charAt(0).toUpperCase()}</span>
-                            } else {
-                              thename = item.recieverName
-                              return <span key={index2}>{item.recieverName?.charAt(0).toUpperCase()}</span>
-                            }
+                          {allproducts.map((item2) => {
+                             if( userId === item2.userId){
+                                  displayname= item.recieverName
+                             } else {
+                              displayname= item.userName
+                             }                          
                           })}
+                          <span >{displayname?.charAt(0).toUpperCase()}</span>
                         </div>
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center justify-between">
                             <p className="font-bold text-sm truncate text-[#2d4456]">
-                              {thename}
+                              {displayname}
                             </p>
                             <Image
                               src={more}
@@ -431,14 +430,15 @@ const Allmessages = () => {
                       return (
                         <React.Fragment key={index}>
                           {/* Chat Header */}
+                          
                           <div className="flex items-center justify-between px-6 py-4 bg-white text-[#2d4456] border-b border-gray-300">
                             <div className="flex items-center space-x-3">
                               <div className="w-10 h-10 bg-[#ccdce8] rounded-full flex items-center justify-center text-[#2d4456] font-semibold text-sm shadow-sm border border-gray-400">
-                                {thename?.charAt(0).toUpperCase()}
+                                {( userId===item.recieverId? displayname= item.userName : displayname= item.recieverName)?.charAt(0).toUpperCase()}
                               </div>
                               <div>
 
-                                {thename}
+                             {userId===item.recieverId? displayname= item.userName : displayname= item.recieverName}
                               </div>
                             </div>
                           </div>
