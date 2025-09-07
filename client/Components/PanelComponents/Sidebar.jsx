@@ -4,7 +4,6 @@ import wishlist from '@/Assets/wishlist.png';
 import add from '@/Assets/add.png';
 import msgicon from '@/Assets/msgicon.png';
 import userlogin from '@/Assets/userlogin.png';
-import orderhistory from '@/Assets/orderhistory.png';
 import Link from 'next/link';
 
 
