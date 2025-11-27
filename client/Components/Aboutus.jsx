@@ -14,7 +14,7 @@ const Aboutus = () => {
     <div className="w-full md:w-1/2">
       
       {/* Curved large bold heading */}
-      <h2 className="text-[40px] md:text-[40px] font-extrabold font-[playfair_display] text-[#2B5E84] [text-wrap:balance]">
+      <h2 className="text-[40px] md:text-[40px] font-extrabold font-[playfair_display] text-[#155076] [text-wrap:balance]">
         <span className="block">ABOUT OUR</span>
         <span className="block">THRIFT STORY</span>
       </h2>
@@ -50,3 +50,4 @@ const Aboutus = () => {
 }
 
 export default Aboutus
+
