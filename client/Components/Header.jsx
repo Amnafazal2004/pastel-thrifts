@@ -4,7 +4,7 @@ import userlogin from '@/Assets/userlogin.png';
 import wishlist from '@/Assets/wishlist.png';
 import Image from 'next/image';
 import heroimg from '@/Assets/heroimg.png';
-import bgimage from '@/Assets/bgimage.png';
+import bgimage from '@/Assets/bgimage1.png';
 import logo from '@/Assets/logo.png';
 import { ThriftContext } from '@/Context/ThriftContext';
 import { useClerk, UserButton } from '@clerk/nextjs';
@@ -103,6 +103,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
