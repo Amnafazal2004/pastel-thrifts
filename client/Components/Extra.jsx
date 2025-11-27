@@ -9,7 +9,7 @@ const Extra = () => {
     <>
       <div id="Blog" className="relative w-full py-16 px-6 bg-[#ccdce8] overflow-hidden">
 
-        {/* SINGLE BIG background text */}
+        /* {/* SINGLE BIG background text */}
         <h2 className="absolute top-18 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[50px] md:text-[80px] lg:text-[70px] opacity-70 font-bold text-[#2b5e84] text-center select-none leading-none whitespace-nowrap">
           SUSTAINABLE VINTAGE THRIFT STYLE
         </h2>
@@ -27,7 +27,7 @@ const Extra = () => {
          {/* SINGLE BIG background text */}
         <h2 className="absolute top-100 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[50px] md:text-[80px] lg:text-[70px] opacity-70 font-bold text-[#2b5e84] text-center select-none leading-none whitespace-nowrap">
           SUSTAINABLE VINTAGE THRIFT STYLE
-        </h2>
+        </h2> */
 
         {/* Content over background text */}
         <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
@@ -81,3 +81,4 @@ const Extra = () => {
 }
 
 export default Extra
+
