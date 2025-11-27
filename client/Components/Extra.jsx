@@ -29,9 +29,9 @@ const Extra = () => {
           SUSTAINABLE VINTAGE THRIFT STYLE
         </h2> */
 
-        {/* Content over background text */}
+        /* {/* Content over background text */}
         <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          
+           */
           {/* Left flashcard image */}
           <div className=" shadow-md overflow-hidden p-1 w-full md:w-1/4">
             <Image 
@@ -74,12 +74,13 @@ const Extra = () => {
             />
           </div>
 
-        </div>
+        {/* </div> */}
       </div>
     </>
   )
 }
 
 export default Extra
+
 
 
