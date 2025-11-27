@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-full bg-[#3c5e78] py-[1px] px-4 flex justify-between items-center text-xs font-outfit text-white justify-center ">
+      <div className="w-full bg-yellow py-[1px] px-4 flex justify-between items-center text-xs font-outfit text-white justify-center ">
         Get the best experince, Shop Now
       </div>
 
@@ -102,3 +102,4 @@ const Header = () => {
 }
 
 export default Header
+
