@@ -23,9 +23,9 @@ const Sidebar = () => {
 
         {/* shop now */}
     <Link href='/Panel/ShowProducts'
-     className="flex items-center gap-2 px-4 py-1 rounded-lg hover:bg-[#3c5e78] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
-      <Image src={wishlist} alt="Wishlist" width={22} height={22} className="group-hover:scale-105" />
-      <span className="text-sm font-[playfair_display] font-semibold ">Shop Now</span>
+     className="flex items-center gap-2 px-4 py-1 rounded-lg hover:bg-[#155076] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
+      <Image src={wishlist} alt="Wishlist" width={20} height={20} className="group-hover:scale-105" />
+      <span className="text-[12px] font-[playfair_display] font-semibold ">Shop Now</span>
     </Link>
     
     {/* Add Product */}
@@ -57,3 +57,4 @@ const Sidebar = () => {
 }
 
 export default Sidebar
+
