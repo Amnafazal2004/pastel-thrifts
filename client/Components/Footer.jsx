@@ -10,7 +10,7 @@ const Footer = () => {
    
 
     <>
-      <div id="Contact" className='text-footer bg-grey1 flex-col items-center gap-5 p-5 pt-20 bg-[#3c5e78] ' >
+      <div id="Contact" className='text-footer bg-grey1 flex-col items-center gap-5 p-5 pt-20 bg-[#155076] ' >
        <div className="flex justify-between ">
         <div className="footercontentleft">
            <h1 className='font-bold text-2xl text-white font-[playfair_display] mb-5'>PASTEL THRIFTS</h1>
@@ -49,3 +49,4 @@ const Footer = () => {
 }
 
 export default Footer
+
