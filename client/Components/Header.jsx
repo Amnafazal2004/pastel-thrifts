@@ -73,7 +73,7 @@ const Header = () => {
       <div className="relative w-full h-[400px] md:h-[450px] overflow-hidden">
         {/* Banner image */}
         <Image
-          src={bgimage}
+          src={heroimg}
           alt="Banner"
           fill
           className="object-cover"
