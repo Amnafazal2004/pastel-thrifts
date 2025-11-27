@@ -4,6 +4,7 @@ import userlogin from '@/Assets/userlogin.png';
 import wishlist from '@/Assets/wishlist.png';
 import Image from 'next/image';
 import heroimg from '@/Assets/heroimg.png';
+import headerimgg from '@/Assets/headerimg.png';
 import logo from '@/Assets/logo.png';
 import { ThriftContext } from '@/Context/ThriftContext';
 import { useClerk, UserButton } from '@clerk/nextjs';
@@ -72,7 +73,7 @@ const Header = () => {
       <div className="relative w-full h-[400px] md:h-[450px] overflow-hidden">
         {/* Banner image */}
         <Image
-          src={heroimg}
+          src={headerimgg}
           alt="Banner"
           fill
           className="object-cover"
@@ -102,6 +103,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
