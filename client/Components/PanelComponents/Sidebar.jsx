@@ -23,27 +23,27 @@ const Sidebar = () => {
 
         {/* shop now */}
     <Link href='/Panel/ShowProducts'
-     className="flex items-center gap-2 px-4 py-1 rounded-lg hover:bg-[#155076] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
-      <Image src={wishlist} alt="Wishlist" width={20} height={20} className="group-hover:scale-105" />
+     className="flex items-center gap-2 px-5 py-1 rounded-lg hover:bg-[#155076] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
+      {/* <Image src={wishlist} alt="Wishlist" width={20} height={20} className="group-hover:scale-105" /> */}
       <span className="text-[12px] font-[playfair_display] font-semibold ">Shop Now</span>
     </Link>
     
     {/* Add Product */}
-    <Link href='/Panel/addProduct' className="flex items-center gap-2 px-4 py-1 rounded-lg hover:bg-[#3c5e78] hover:text-[#e2ebf3] transition-all cursor-pointer group">
-      <Image src={add} alt="Add Product" width={22} height={22} className="group-hover:scale-105" />
+    <Link href='/Panel/addProduct' className="flex items-center gap-2 px-5 py-1 rounded-lg hover:bg-[#155076] hover:text-[#e2ebf3] transition-all cursor-pointer group">
+      {/* <Image src={add} alt="Add Product" width={22} height={22} className="group-hover:scale-105" /> */}
       <span className="text-sm font-[playfair_display] font-semibold ">Add Product</span>
     </Link>
 
     {/* Messages */}
-    <Link href='/Panel/allmessages' className="flex items-center gap-2 px-4 py-1 rounded-lg hover:bg-[#3c5e78] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
-      <Image src={msgicon} alt="Messages" width={22} height={22} className="group-hover:scale-105" />
+    <Link href='/Panel/allmessages' className="flex items-center gap-2 px-5 py-1 rounded-lg hover:bg-[#155076] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
+      {/* <Image src={msgicon} alt="Messages" width={22} height={22} className="group-hover:scale-105" /> */}
       <span className="text-sm  font-[playfair_display] font-semibold">Messages</span>
     </Link>
 
 
     {/* Dashboard */}
-    <Link href='/Panel/Dashboard' className="flex items-center gap-2 px-4 py-1 rounded-lg hover:bg-[#3c5e78] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
-      <Image src={userlogin} alt="Dashboard" width={22} height={22} className="group-hover:scale-105" />
+    <Link href='/Panel/Dashboard' className="flex items-center gap-2 px-5 py-1 rounded-lg hover:bg-[#155076] hover:text-[#e2ebf3]  transition-all cursor-pointer group">
+      {/* <Image src={userlogin} alt="Dashboard" width={22} height={22} className="group-hover:scale-105" /> */}
       <span className="text-sm font-[playfair_display] font-semibold ">Dashboard</span>
     </Link>
 
@@ -57,4 +57,5 @@ const Sidebar = () => {
 }
 
 export default Sidebar
+
 
