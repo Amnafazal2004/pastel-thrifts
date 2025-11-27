@@ -158,7 +158,7 @@ const page = () => {
       </div>
 
       <div className="flex gap-4">
-        <button className={productdata.forbuy ? "text-white px-8 py-2 bg-[#3c5e78] hover:bg-gray-900 transition rounded-xl" : "hidden"}>
+        <button className={productdata.forbuy ? "text-white px-8 py-2 bg-[#155076] hover:bg-gray-900 transition rounded-xl" : "hidden"}>
           Buy Now
         </button>
 
@@ -166,7 +166,7 @@ const page = () => {
           onClick={() => {
             tradeHandler(userId, gettinguser.username, productdata._id, productdata.userId, productdata.userName);
           }}
-          className={productdata.fortrade ? "text-white px-8 py-2 bg-[#3c5e78] hover:bg-gray-900 transition rounded-xl" : "hidden"}>
+          className={productdata.fortrade ? "text-white px-8 py-2 bg-[#155076] hover:bg-gray-900 transition rounded-xl" : "hidden"}>
           Trade Now
         </button>
 
@@ -218,3 +218,4 @@ const page = () => {
 }
 
 export default page
+
