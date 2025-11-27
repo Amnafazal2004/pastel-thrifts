@@ -20,7 +20,7 @@ fetchproducts();
 
   return (
     <>
-       <div id="NewArrivals" className="w-full py-12 px-6 bg-[#FDF8F6] text-center">
+       <div id="NewArrivals" className="w-full py-12 px-6  text-center">
       
       {/* Small intro phrase */}
       <p className="text-xs md:text-sm  tracking-wide text-black">
@@ -72,3 +72,4 @@ fetchproducts();
 }
 
 export default NewArrivals
+
