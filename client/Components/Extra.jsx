@@ -33,21 +33,21 @@ const Extra = () => {
         <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           
           {/* Left flashcard image */}
-          <div className="bg-white rounded-4xl shadow-md overflow-hidden p-1 w-full md:w-1/4">
+          <div className=" shadow-md overflow-hidden p-1 w-full md:w-1/4">
             <Image 
               src={extraImg}
               alt="Left"
-              className="w-full h-60 object-cover rounded-3xl"
+              className="w-full h-60 object-cover "
             />
           </div>
 
           {/* Center blog card */}
-          <div className="relative bg-white rounded-4xl shadow-lg overflow-hidden p-1 w-full md:w-1/2">
+          <div className="relative shadow-lg overflow-hidden p-1 w-full md:w-1/2">
             <div className="relative">
               <Image 
                 src={extraimg3}
                 alt="Center"
-                className="w-full h-60 md:h-80 object-cover rounded-3xl"
+                className="w-full h-60 md:h-80 object-cover "
               />
               <div className="absolute inset-0 bg-[#2B5E84] opacity-50 rounded-3xl"></div>
 
@@ -66,11 +66,11 @@ const Extra = () => {
           </div>
 
           {/* Right flashcard image */}
-          <div className="bg-white rounded-4xl shadow-md overflow-hidden p-1 w-full md:w-1/4">
+          <div className=" shadow-md overflow-hidden p-1 w-full md:w-1/4">
             <Image 
               src={extraImg2}
               alt="Right"
-              className="w-full h-60 object-cover rounded-3xl"
+              className="w-full h-60 object-cover "
             />
           </div>
 
@@ -81,4 +81,5 @@ const Extra = () => {
 }
 
 export default Extra
+
 
