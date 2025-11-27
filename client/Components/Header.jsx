@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-full bg-[#1A3A52] py-[1px] px-4 flex justify-between items-center text-xs font-outfit text-white justify-center ">
+      <div className="w-full bg-[#155076] py-[1px] px-4 flex justify-between items-center text-xs font-outfit text-white justify-center ">
         Get the best experince, Shop Now
       </div>
 
@@ -56,7 +56,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="w-full bg-[#1A3A52] py-2 px-6 flex justify-center shadow-sm">
+      <div className="w-full bg-[#155076] py-2 px-6 flex justify-center shadow-sm">
         <div className="flex space-x-8 text-[14px] font-outfit text-white">
           {/* id lagao her page per jaker phir ye scroll kareyga */}
           <a href="/" className="hover:text-gray-400" >Home</a>
@@ -91,7 +91,7 @@ const Header = () => {
             Discover unique finds at Pastel Thrift
           </p>
           <Link href={'/Panel/ShowProducts'}>
-            <button className="mt-4 bg-[#1A3A52] text-white text-sm px-6 py-2 rounded-full hover:bg-[#A3CCE9]">
+            <button className="mt-4 bg-[#155076] text-white text-sm px-6 py-2 rounded-full hover:bg-[#A3CCE9]">
               Shop Now
             </button>
           </Link>
@@ -102,6 +102,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
