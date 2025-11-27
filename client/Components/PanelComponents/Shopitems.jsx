@@ -21,7 +21,7 @@ const Shopitems = ({id, image, productname, description, category, price , soldo
       </div>
 
       {/* Category Badge */}
-      <p className="mt-4 mb-1 w-fit px-3 py-1 bg-[#3c5e78] text-white text-xs rounded-md">
+      <p className="mt-4 mb-1 w-fit px-3 py-1 bg-[#155076] text-white text-xs rounded-md">
         {category}
       </p>
 
@@ -50,7 +50,7 @@ const Shopitems = ({id, image, productname, description, category, price , soldo
           </div>
         ) : (
           <Link href={`/singleproduct/${id}`}>
-            <button className="w-full bg-[#3c5e78] text-white text-sm py-1 mt-2 rounded-xl hover:bg-[#2e4a61] transition">
+            <button className="w-full bg-[#155076] text-white text-sm py-1 mt-2 rounded-xl hover:bg-[#2e4a61] transition">
               See Details
             </button>  
           </Link>
@@ -61,3 +61,4 @@ const Shopitems = ({id, image, productname, description, category, price , soldo
 }
 
 export default Shopitems
+
