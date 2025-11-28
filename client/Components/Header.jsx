@@ -4,7 +4,7 @@ import userlogin from '@/Assets/userlogin.png';
 import wishlist from '@/Assets/wishlist.png';
 import Image from 'next/image';
 import heroimg from '@/Assets/heroimg.png';
-import bgimage1 from '@/Assets/bgimage1.png';
+import bgimage from '@/Assets/bgimage.png';
 import logo from '@/Assets/logo.png';
 import logo1 from '@/Assets/logo1.png';
 import { ThriftContext } from '@/Context/ThriftContext';
@@ -28,7 +28,7 @@ const Header = () => {
 
         {/* Centered logo + title */}
         <div className="flex py-2 items-center">
-          <Image src={logo1} alt="Clothing Logo" className="w-10 h-10" />
+          {/* <Image src={logo1} alt="Clothing Logo" className="w-10 h-10" /> */}
           <div className="text-xl font-bold font-[Playfair_Display] text-black">
             Pastel Thrift
           </div>
@@ -74,7 +74,7 @@ const Header = () => {
       <div className="relative w-full h-[400px] md:h-[450px] overflow-hidden">
         {/* Banner image */}
         <Image
-          src={bgimage1}
+          src={bgimage}
           alt="Banner"
           fill
           className="object-cover"
@@ -104,6 +104,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
