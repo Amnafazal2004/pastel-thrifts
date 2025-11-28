@@ -28,7 +28,7 @@ const Header = () => {
 
         {/* Centered logo + title */}
         <div className="flex py-1 items-center">
-          <Image src={logo1} alt="Clothing Logo" className="w-18 h-18" />
+          <Image src={logo1} alt="Clothing Logo" className="w-14 h-14" />
           <div className="text-2xl font-bold font-[Playfair_Display] text-black">
             Pastel Thrift
           </div>
@@ -104,6 +104,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
