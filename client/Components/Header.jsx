@@ -20,16 +20,16 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-full bg-[#155076] py-[1px] px-4 flex justify-between items-center text-xs font-outfit text-white justify-center ">
+      <div className="w-full bg-[#155076] py-[1px] px-4 flex justify-between items-center text-[10px] font-outfit text-white justify-center ">
         Get the best experince, Shop Now
       </div>
 
       <div className="w-full relative bg-[#FAF6FB] px-6 flex justify-center items-center shadow-sm">
 
         {/* Centered logo + title */}
-        <div className="flex py-1 items-center">
+        <div className="flex py-2 items-center">
           <Image src={logo1} alt="Clothing Logo" className="w-10 h-10" />
-          <div className="text-2xl font-bold font-[Playfair_Display] text-black">
+          <div className="text-xl font-bold font-[Playfair_Display] text-black">
             Pastel Thrift
           </div>
         </div>
@@ -104,6 +104,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
