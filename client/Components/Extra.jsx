@@ -9,7 +9,12 @@ const Extra = () => {
   return (
     <>
       <div id="Blog" className="relative w-full py-16 px-6 bg-[#ccdce8] overflow-hidden">
-       
+
+         
+
+        {/* Content over background text */}
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+     
           {/* Left flashcard image */}
           <div className=" shadow-md overflow-hidden p-1 w-full md:w-1/4">
             <Image 
@@ -52,7 +57,7 @@ const Extra = () => {
             />
           </div>
 
-        
+         </div>
       </div>
     </>
   )
