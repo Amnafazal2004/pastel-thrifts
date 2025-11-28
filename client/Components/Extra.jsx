@@ -13,7 +13,7 @@ const Extra = () => {
          
 
         {/* Content over background text */}
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 absolute inset-0 bg-black z-10 opacity-50 ">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 ">
      
           {/* Left flashcard image */}
           <div className=" shadow-md overflow-hidden p-1 w-full md:w-1/4">
@@ -64,6 +64,7 @@ const Extra = () => {
 }
 
 export default Extra
+
 
 
 
