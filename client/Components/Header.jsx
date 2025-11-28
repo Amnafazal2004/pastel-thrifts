@@ -86,14 +86,14 @@ const Header = () => {
 
         {/* Text content */}
         <div className="absolute z-10 w-full h-full flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-xl md:text-4xl font-bold font-[Playfair_Display] text-white drop-shadow">
+          <h1 className="text-2xl md:text-4xl font-bold font-[Playfair_Display] text-white drop-shadow">
             Style that tells your story
           </h1>
           <p className="mt-2 text-sm  text-white drop-shadow">
             Discover unique finds at Pastel Thrift
           </p>
           <Link href={'/Panel/ShowProducts'}>
-            <button className="mt-4 bg-[#155076] text-white text-sm px-6 py-2 rounded-full hover:bg-[#A3CCE9]">
+            <button className="mt-4 bg-[#155076] text-white text-sm px-8 py-3 rounded-full hover:bg-[#A3CCE9]">
               Shop Now
             </button>
           </Link>
@@ -104,6 +104,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
