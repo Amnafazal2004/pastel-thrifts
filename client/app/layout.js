@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
 
         <ClerkProvider>
-    <html lang="en">
+    <html lang="en" classname="scroll-smooth">
       <body
         className={`${playfair_display.variable} ${outfit.variable} antialiased`}
       >
