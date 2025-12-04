@@ -59,7 +59,7 @@ const Header = () => {
       </div>
 
       <div className="w-full bg-[#155076] py-2 px-6 flex justify-center shadow-sm">
-        <div className="flex space-x-8 text-[14px] font-outfit text-white">
+        <nav className="flex space-x-8 text-[14px] font-outfit text-white">
           {/* id lagao her page per jaker phir ye scroll kareyga */}
           <a href="/" className="hover:text-gray-400" >Home</a>
           <a href="#NewArrivals" className="hover:text-gray-400 scroll-smooth" >New Arrival</a>
@@ -68,7 +68,7 @@ const Header = () => {
           <a href="#Blog" className="hover:text-gray-40 scroll-smooth">Blog</a>
           <a href="#Feedback" className="hover:text-gray-400 scroll-smooth">Feedback</a>
           <a href="#Contact" className="hover:text-gray-400 scroll-smooth">Contact</a>
-        </div>
+        </nav>
       </div>
 
       <div className="relative w-full h-[400px] md:h-[450px] overflow-hidden">
@@ -104,6 +104,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
