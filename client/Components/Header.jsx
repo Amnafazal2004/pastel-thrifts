@@ -97,7 +97,9 @@ const Header = () => {
               Shop Now
             </button>
           </Link>  :
-            <></> }
+             <button className="mt-4 bg-[#155076] text-white text-sm px-12 py-2 rounded-full hover:bg-[#A3CCE9]">
+              Shop Now
+            </button> }
          
         </div>
       </div>
@@ -106,6 +108,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
