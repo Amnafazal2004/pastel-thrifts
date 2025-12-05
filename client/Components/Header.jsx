@@ -92,11 +92,13 @@ const Header = () => {
           <p className="mt-2 text-sm  text-white drop-shadow">
             Discover unique finds at Pastel Thrift
           </p>
-          <Link href={'/Panel/ShowProducts'}>
+          {user?   <Link href={'/Panel/ShowProducts'}>
             <button className="mt-4 bg-[#155076] text-white text-sm px-12 py-2 rounded-full hover:bg-[#A3CCE9]">
               Shop Now
             </button>
-          </Link>
+          </Link>  :
+            <></> }
+         
         </div>
       </div>
     </>
@@ -104,6 +106,7 @@ const Header = () => {
 }
 
 export default Header
+
 
 
 
