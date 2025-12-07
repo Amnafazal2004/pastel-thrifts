@@ -23,7 +23,7 @@ fetchproducts();
        <div id="NewArrivals" className="w-full py-12 px-6  text-center">
       
       {/* Small intro phrase */}
-      <p className="text-xs md:text-sm  tracking-wide text-black">
+      <p className="text-xs md:text-sm font-[poppins]  tracking-wide text-black">
         Just In Store
       </p>
 
@@ -33,7 +33,7 @@ fetchproducts();
       </h2>
 
       {/* Small description */}
-      <p className="mt-2 text-sm md:text-base text-black">
+      <p className="mt-2 text-sm md:text-base font-[poppins]   text-black">
         Fresh finds just added to our collection. Shop the latest pieces!
       </p>
 

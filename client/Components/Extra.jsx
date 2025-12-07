@@ -38,10 +38,10 @@ const Extra = () => {
                 <h3 className="text-xl md:text-2xl font-bold font-[playfair_display] text-white drop-shadow-md mb-2">
                   Explore Our Blog
                 </h3>
-                <p className="text-xs md:text-sm text-white drop-shadow-md mb-3 max-w-sm">
+                <p className="text-[12px] font-[poppins]   text-white drop-shadow-md mb-3 max-w-sm">
                   Our blog is where fashion meets purpose. Discover thrift finds, creative styling tips, and sustainable choices that reflect your values.
                 </p>
-                <button className="bg-white text-[#2B5E84] text-xs md:text-sm py-1.5 px-6 rounded-full hover:bg-[#3c5e78]  hover:text-white transition">
+                <button className="bg-white  font-[poppins]   text-[#2B5E84] text-xs md:text-sm py-1.5 px-6 rounded-full hover:bg-[#3c5e78]  hover:text-white transition">
                   Read More
                 </button>
               </div>

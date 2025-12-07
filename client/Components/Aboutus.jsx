@@ -19,7 +19,7 @@ const Aboutus = () => {
         <span className="block">THRIFT STORY</span>
       </h2>
 
-      <p className="mt-4 text-sm md:text-base text-gray-600">
+      <p className="mt-4 text-sm md:text-base font-[poppins]   text-gray-600">
         At Pastel Thrift, we believe that fashion should be kind — to the planet, to your wallet, and to your unique style. Our carefully curated collection of pre-loved pieces tells stories of sustainability, creativity, and individuality. Join us in redefining style through conscious choices and timeless finds.
       </p>
 
