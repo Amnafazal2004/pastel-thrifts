@@ -22,6 +22,7 @@ const page = () => {
   const router = useRouter()
   const messages = [];
 
+  //shopitems se singleproduct/${id} aesay bheji hai ab ye params.id url se id le ker backend per dega
   const fetchaproduct = async () => {
     const { data } = await axios.get(`/api/products/allproducts`, {
       params: { id: params.id }

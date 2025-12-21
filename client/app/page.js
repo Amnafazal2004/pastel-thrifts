@@ -20,7 +20,7 @@ const page = () => {
   return (
     <ThriftContextProvider>
       <ToastContainer theme='light'/>
-    <div classname="scroll-smooth">
+    <div className="scroll-smooth">
     
       <Header/>
       <NewArrivals/>

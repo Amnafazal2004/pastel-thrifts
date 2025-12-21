@@ -1,6 +1,6 @@
 import { Playfair_Display, Outfit, Poppins } from "next/font/google";
 import "./globals.css";
-import ThriftContextProvider, { ThriftContext } from '@/Context/ThriftContext'
+import ThriftContextProvider from '@/Context/ThriftContext'
 import { ClerkProvider } from "@clerk/nextjs";
 
 const outfit = Outfit({
