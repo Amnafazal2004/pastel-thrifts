@@ -78,7 +78,7 @@ const Header = () => {
         </div>
 
         {/* Right Hanging Clothes */}
-        <div className="absolute right-10 bottom-18 flex space-x-2">
+        <div className="absolute right-10 bottom-18.5 flex space-x-2">
           <Image src={bg22} alt="Hanging 1" className="w-[400px] h-auto" />
         </div>
      
