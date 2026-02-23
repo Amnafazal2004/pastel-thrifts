@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-full bg-[#155076] py-[1px] font-[poppins] px-4 flex justify-between items-center text-[10px] font-outfit text-white justify-center ">
+      <div className="w-full bg-[#1c4159] py-[1px] font-[poppins] px-4 flex justify-between items-center text-[10px] font-outfit text-white justify-center ">
         Get the best experince, Shop Now
       </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
         {/* Centered logo + title */}
         <div className="flex py-2 items-center">
           {/* <Image src={logo1} alt="Clothing Logo" className="w-10 h-10" />  */}
-          <div className="text-xl font-bold font-[Playfair_Display] text-[#155076]">
+          <div className="text-xl font-bold font-[Playfair_Display] text-[#1c4159] ">
             Pastel Thrifts
           </div>
         </div>
@@ -58,7 +58,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="w-full bg-[#155076] py-2 px-6 flex justify-center shadow-sm">
+      <div className="w-full bg-[#1c4159]  py-2 px-6 flex justify-center shadow-sm">
         <nav className="flex space-x-8 text-[14px] font-[poppins] text-white">
           {/* id lagao her page per jaker phir ye scroll kareyga */}
           <a href="/" className="hover:text-gray-400" >Home</a>
@@ -101,29 +101,29 @@ const Header = () => {
   {/* Text Section */}
   <div className="flex flex-col items-center text-center px-4 z-10">
 
-    <h1 className="font-[Playfair_Display] text-white font-bold text-[70px] leading-[70px]">
+    <h1 className="font-[Playfair_Display] text-black font-bold text-[70px] leading-[70px]">
       Style that fits
     </h1>
 
     <div className="flex font-[Playfair_Display] font-bold text-[70px] leading-[70px]">
-      <span className="text-white pr-4">your</span>
-      <span className="text-[#155076] italic">DREAM</span>
+      <span className="text-black pr-4">your</span>
+      <span className="text-[#1c4159]  italic">DREAM</span>
     </div>
 
-    <p className="mt-3 font-[#155076] text-[#155076] text-sm tracking-wide">
+    <p className="mt-3 font-[#155076] text-[#1c4159]  text-sm tracking-wide">
       Discover the most unique and beloved finds at Pastel Thrift
     </p>
 
     {user ? (
       <Link href="/Panel/ShowProducts">
-        <button className="mt-5 bg-[#155076] text-white text-sm px-12 py-2 rounded-full hover:text-gray-400 duration-200">
+        <button className="mt-5 bg-[#1c4159] text-white text-sm px-12 py-2 rounded-full hover:text-gray-400 duration-200">
           Shop Now
         </button>
       </Link>
     ) : (
       <button
         onClick={openSignIn}
-        className="mt-5 bg-[#155076] text-white text-sm px-12 py-2 rounded-full hover:bg-[#A3CCE9] duration-200"
+        className="mt-5 bg-[#1c4159] text-white text-sm px-12 py-2 rounded-full hover:bg-[#A3CCE9] duration-200"
       >
         Shop Now
       </button>

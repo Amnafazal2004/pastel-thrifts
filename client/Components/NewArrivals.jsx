@@ -20,7 +20,7 @@ fetchproducts();
 
   return (
     <>
-       <div id="NewArrivals" className="w-full py-12 px-6  text-center">
+       <div id="NewArrivals" className="w-full py-12 px-6 bg-[#FAF6FB]   text-center">
       
       {/* Small intro phrase */}
       <p className="text-xs md:text-sm font-[poppins]  tracking-wide text-black">
